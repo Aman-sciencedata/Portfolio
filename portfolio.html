@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="myname">
+            <h1>Hello, I am Aman Bisht</h1>
+        </div>
+        <div class="skill">
+            <h5>Web Developer | Video Editor | Graphic Designer</h5>
+        </div>
+        <div class="button1">
+            <a href="mailto:tichki_tuiya@gmail.com">
+                <input type="button" value="Let's Connect" class="btn" />
+            </a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm a Bachelor of Computer Applications (BCA) student with a passion for web development, video editing, and graphic design. I thrive on creativity and innovation, constantly seeking to explore new technologies and expand my skill set. My journey in the digital world has equipped me with a diverse range of abilities, from crafting compelling websites to editing engaging videos and designing striking graphics.
+        </p>
+        <p>
+            Beyond my academic and professional pursuits, I have a deep love for traveling. Exploring new places and experiencing different cultures inspires me and fuels my creativity. I believe that the world is full of endless opportunities to learn and grow, and I am always eager to embark on new adventures.
+        </p>
+    </section>
+
+    <div class="container">
+        <a href="https://www.linkedin.com/in/aman-bisht-4391a7254/">
+            <div class="box" id="box1">
+                <h3>Web Development</h3>
+                <p>These are my web development projects.</p>
+            </div>
+        </a>
+        <a href="https://drive.google.com/drive/folders/1YqrxkGLojWhm15STW8C0goFhN3yS-AhI?usp=drive_link">
+            <div class="box" id="box2">
+                <h3>Video Editing</h3>
+                <p>These are video editing projects.</p>
+            </div>
+        </a>
+        <a href="https://drive.google.com/drive/folders/1gNu7xANCOqiAbEGBJ58GwZHky38b5H4N?usp=drive_link">
+            <div class="box" id="box3">
+                <h3>Graphic Designing</h3>
+                <p>These are my graphic design projects.</p>
+            </div>
+        </a>
+    </div>
+
+    <footer>
+        <div class="footer-content" id="contact">
+            <p id="footup">Thanks for Visiting</p>
+            <h2>Contact Me</h2>
+            <p>Feel free to contact me!</p>
+            <form action="/submit_form" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="2" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </footer>
+</body>
+
+</html>

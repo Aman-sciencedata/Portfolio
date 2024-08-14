@@ -1,0 +1,171 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    background: url("C:\\Users\\DELL\\Desktop\\codealpha_tasks\\Portfolio\\portfolio.jpg") no-repeat center center fixed; 
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #ddd;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+}
+
+.myname h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.skill h5 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.button1 .btn {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.button1 .btn:hover {
+    background-color: #f1f1f1;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Work Section */
+.work {
+    padding: 50px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ffcc00; /* Change this to your desired color */
+}
+
+.box p {
+    font-size: 1rem;
+    color: #ffcc00; /* Change this to your desired color */
+}
+
+/* Footer */
+footer {
+    padding: 50px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+}
+
+.footer-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.footer-content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.footer-content form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.footer-content input[type="text"],
+.footer-content input[type="email"],
+.footer-content textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.footer-content button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.footer-content button[type="submit"]:hover {
+    background-color: #f1f1f1;
+}
